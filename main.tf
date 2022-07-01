@@ -14,4 +14,5 @@ resource "azurerm_subnet" "Subnet" {
   resource_group_name  = var.resource_group_name
   virtual_network_name = var.name_vnet
   address_prefixes     = ["10.0.2.0/24"]
+  count                = "1"
 }
