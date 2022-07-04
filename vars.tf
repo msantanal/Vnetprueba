@@ -4,9 +4,9 @@ variable "resource_group_name" {
 variable "location" {
   type        = string
 }
-variable "name_vnet" {
+variable "virtual_network_name" {
   type        = string
 }
-variable "name_subnet" {
+variable "subnet_name" {
   type        = string
 }
